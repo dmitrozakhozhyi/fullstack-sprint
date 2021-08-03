@@ -1,0 +1,43 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+table {
+  border-collapse: collapse;
+}
+thead > tr {
+  background-color: #000;
+  color: #fff;
+}
+td {
+  border: 2px solid #d3cdcd;
+  text-align: center;
+  padding: 0 10px;
+}
+tfoot > tr > td {
+  padding: 5px;
+}
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 20%;
+  margin: 5px;
+}
+.bg_orange {
+  background-color: rgb(247, 183, 66);
+}
+.bg_green {
+  background-color: green;
+}
+.bg_blue {
+  background-color: rgb(66, 66, 252);
+}
+.bg_yellow {
+  background-color: yellow;
+}
+.bg_red {
+  background-color: rgb(245, 46, 46);
+}
+.bg_purple {
+  background-color: rgb(77, 13, 138);
+}

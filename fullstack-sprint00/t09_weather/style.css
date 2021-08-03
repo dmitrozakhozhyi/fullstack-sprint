@@ -1,0 +1,35 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flexbox {
+  display: flex;
+  text-align: center;
+}
+.item {
+  width: 120px;
+  margin: 0 3px;
+}
+.item:hover {
+  box-shadow: 0px 0px 5px 5px rgb(2 0 0 / 30%);
+}
+p {
+  margin: 0px;
+}
+img {
+  width: 100%;
+}
+.text,
+.weather {
+  font-family: "Lato", sans-serif;
+}
+.date {
+  font-weight: 700;
+  font-size: 1.5em;
+  background-color: #4a6ee4;
+  color: white;
+}
+.weather {
+  font-weight: 400;
+  font-size: 2em;
+}

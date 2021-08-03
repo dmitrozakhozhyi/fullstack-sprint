@@ -1,0 +1,32 @@
+body {
+  margin: 100px;
+}
+.box {
+  padding: 20px;
+  margin: 50px 30px;
+  background-color: #dbdbdb;
+  position: relative;
+  font-weight: 600;
+}
+.box:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: calc(100% - 2px);
+  height: calc(100% + 50px);
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+.box::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: -25px;
+  width: calc(100% - -50px);
+  height: calc(100% + -2px);
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}

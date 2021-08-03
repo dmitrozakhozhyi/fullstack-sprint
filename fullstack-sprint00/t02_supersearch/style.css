@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.search {
+  display: flex;
+}
+.input_field {
+  border-color: #0000ff;
+  color: #008000;
+  padding: 0 10px;
+  height: 2em;
+  width: 100%;
+  outline: none;
+}
+.input_field:hover,
+.submit_btn:hover {
+  color: #ff0000;
+}
+
+.submit_btn {
+  color: #008000;
+  cursor: pointer;
+}
