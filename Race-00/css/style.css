@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: "Calibri", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.calculatorGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(120px, auto) repeat(6, 80px);
+  background-color: #616161;
+  border-radius: 10px;
+  max-width: 400px;
+  font-family: "Calibri";
+  padding: 15px;
+  margin: 50px auto;
+}
+.calculatorGrid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 3px;
+  outline: none;
+  background-color: rgba(13, 24, 20, 0.824);
+  color: #e3ffe7;
+}
+button.number {
+  background-color: #020202;
+}
+button.equal {
+  background-color: #ff9800;
+  color: #000;
+}
+button.operation {
+  color: #ff9800;
+}
+.calculatorGrid > button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+.output {
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.two-fr {
+  grid-column: span 2;
+}
+.prevNumber {
+  font-size: 20px;
+}
+.currentNumber {
+  font-size: 2em;
+}
